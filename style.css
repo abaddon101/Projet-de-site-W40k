@@ -1,0 +1,694 @@
+
+
+    /*Police*/
+
+    @font-face 
+    {
+        font-family:cheddargothic-stencil;
+        src: url(webfont/Fonts/cheddargothic-stencil.otf);
+    }
+        /* Corps du texte*/
+    body
+    {
+        background-image: url(theme/btfw40k.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        font-family: 'cheddargothic-stencil';
+        color: green;
+        
+    
+    }
+        /*Début du menu de navigation*/
+    
+        #bloc_page
+            {
+                width: auto;
+                height: auto;
+                margin: 0px 20px 35px 40px;   
+            }
+    
+        header
+            {
+               display: flex;
+               flex-direction: row;
+               width: 1192px;
+               height: 200px;
+               justify-content:space-evenly;
+               align-items: flex-end;
+               background-image: url(theme/strategium.jpg);
+               background-size: 1192px 670px ;
+               background-position-y: bottom;
+               background-repeat: no-repeat;
+                    
+               position:relative;
+               top:0px;
+               right: 0px;
+               bottom: 0px;
+               left: 250px;
+               border: 2px solid grey;
+               border-radius: 30px 30px 30px 30px;
+            }   
+    
+        #logo
+            {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items:flex-end;
+                width: auto;
+                height: auto;
+    
+                position: relative;
+                left: 100px;
+                right: 0px;
+                top: 0px;
+                bottom: 0px;
+            }
+    
+        #logo img
+            {
+                width: 400px;
+                height: 106px;
+            }
+    
+        nav ul
+            {
+                width: 500px;
+                height: 40px;
+                border: 2px solid grey;
+                background-image: url(theme/strategium3.jpg);
+                background-position: top;
+                display:flex;
+                justify-content:space-evenly;
+                border-radius: 20px;
+                list-style-type: none;
+                padding: 8px 0px 0px 0px;
+                margin: 0px;
+            
+            }
+    
+        nav ul li a
+            {
+                display:block;
+                font-size: medium;
+                float:left;
+                justify-content: space-between;
+                width: auto;
+                height: 20px;
+                text-align: center;
+                background-image: url(theme/strategium3.jpg);
+                background-position: top;
+                color: green;
+                border-radius: 20px;
+                padding: 5px;
+                border: 2px solid grey;
+            
+            }
+    
+        #titre_principal
+            {
+                display: flex;
+                flex-direction: column;
+            }
+    
+        header h2
+            {
+                display: block;
+                text-align: right;
+                text-decoration: underline;
+                color: #551A8B;
+            }
+    
+        /*Fin du menu de navigation*/
+    
+        /*Page accueil*/
+            #article1
+                  {
+                  border: 2px solid green;
+                  border-radius: 35px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content:space-between;
+                  text-align:end;
+    
+                  padding: 0px 5px 0px 0px;
+                  font-size: small;
+                  background-image: url(theme/fond.jpg);
+                  background-position: bottom;
+                  width: 1200px;
+                  height: 400px;
+                  padding-bottom: 150px;
+                }
+    
+            #article1 img
+            {
+               border-radius: 80px 40px;
+               justify-self: baseline;
+               width: 900px;
+            }
+    
+            #article2
+            {
+                border: 2px solid green;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                text-align: end;
+    
+                padding: 0px 5px 0px 0px;
+                font-size: small;
+                background-image: url(theme/fond.jpg);
+                background-position: bottom;
+                width: 1200px;
+                height: 400px;
+                padding-bottom: 150px;
+            }
+    
+            #article2 img
+            {
+               border-radius: 80px 40px;
+               justify-self: baseline;
+               width: 900px;
+            }
+    
+            #article3
+            {
+                border: 2px solid green;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                text-align: end;
+    
+                padding: 0px 5px 0px 0px;
+                font-size: small;
+                background-image: url(theme/fond.jpg);
+                background-position: bottom;
+                width: 1200px;
+                height: 400px;
+                padding-bottom: 150px;
+            }
+    
+            #article3 img
+            {
+               border-radius: 80px 40px;
+               justify-self: baseline;
+               width: 900px;
+            }
+    
+            #article4
+            {
+                border: 2px solid green;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                text-align: end;
+    
+                padding: 0px 5px 0px 0px;
+                font-size: small;
+                background-image: url(theme/fond.jpg);
+                background-position: bottom;
+                width: 1200px;
+                height: 400px;
+                padding-bottom: 150px;
+            }
+    
+            #article4 img
+            {
+               border-radius: 80px 40px;
+               justify-self: baseline;
+               width: 900px;
+            }
+    
+        /* Fin de la Page accueil*/
+    
+        /*Page Factions*/            
+            #BlocFaction1
+            {
+                max-width: 1450px;
+                min-width: 400px;
+                border: 2px solid black;
+                border-radius: 20px;
+                text-align: center;
+                overflow: auto;
+                background-image: url(theme/spacemarine.jpg);
+                background-position: top;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                align-items: center;
+            }
+    
+            #BlocFaction2
+            {
+                max-width: 1450px;
+                min-width: 400px;
+                border: 2px solid black;
+                border-radius: 20px;
+                text-align: center;
+                overflow: auto;
+                background-image: url(theme/gardeimperial3.jpg);
+                background-position: top;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                align-items: center;
+            }
+    
+            #BlocFaction3
+            {
+                max-width: 1450px;
+                min-width: 400px;
+                border: 2px solid black;
+                border-radius: 20px;
+                text-align: center;
+                overflow: auto;
+                background-image: url(theme/chaos.jpg);
+                background-position: top;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                align-items: center;
+            }
+    
+    
+    
+        /*Fin de Page Factions*/ 
+    
+        /* Page Jeux*/
+                #BlocTexte1
+                {
+                    max-width: 1450px;
+                    min-width: 400px;
+                    border: 2px solid black;
+                    border-radius: 20px;
+                    text-align: center;
+                    overflow: auto;
+                    background-image: url(theme/page_codex.jpeg);
+                    background-position: top;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                    align-items: center;
+                }
+            #BlocTexte2
+                {
+                    max-width: 1450px;
+                    min-width: 400px;
+                    border: 2px solid black;
+                    border-radius: 20px;
+                    text-align: center;
+                    overflow: auto;
+                    background-image: url(theme/page_codex.jpeg);
+                    background-position: top;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                }
+            #BlocTexte3
+                {
+                    max-width: 1450px;
+                    min-width: 400px;
+                    border: 2px solid black;
+                    border-radius: 20px;
+                    text-align: center;
+                    overflow: auto;
+                    background-image: url(theme/page_codex.jpeg);
+                    background-position: top;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                
+                }
+            #BlocTexte4
+                {
+                    max-width: 1450px;
+                    min-width: 400px;
+                    border: 2px solid black;
+                    border-radius: 20px;
+                    text-align: center;
+                    overflow: auto;
+                    background-image: url(theme/page_codex.jpeg);
+                    background-position: top;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                }
+            #BlocTexte5
+                {
+                    max-width: 1450px;
+                    min-width: 400px;
+                    border: 2px solid black;
+                    border-radius: 20px;
+                    text-align: center;
+                    overflow: auto;
+                    background-image: url(theme/page_codex.jpeg);
+                    background-position: top;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                }
+            #BlocTexte6
+                {
+                    max-width: 1450px;
+                    min-width: 400px;
+                    border: 2px solid black;
+                    border-radius: 20px;
+                    text-align: center;
+                    overflow: auto;
+                    background-image: url(theme/page_codex.jpeg);
+                    background-position: top;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                }
+    
+        /*Pied de page*/
+    
+            footer ul
+                {
+                    width: 500px;
+                    height: 50px;
+                    border: 2px solid grey;
+                    background-image: url(theme/strategium3.jpg);
+                    background-position: top;
+                    display:flex;
+                    justify-content:space-evenly;
+                    border-radius: 20px;
+                    list-style-type: none;
+                    padding: 8px 0px 0px 0px;
+                    margin: 0px;
+                }
+            footer ul li a
+                {
+                    display:block;
+                    font-size: medium;
+                    float:left;
+    
+                    width: auto;
+                    height: auto;
+                    text-align: center;
+                    overflow:auto;
+    
+                    background-image: url(theme/strategium3.jpg);
+                    background-position: top;
+                    color: green;
+                    border-radius: 20px;
+                    padding: 5px;
+                    border: 2px solid grey;
+    
+                }
+        /*Fin du Pied de page*/
+    
+        /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\        Responsive Design             &                  Media Queries ///////////////////////////// */
+                                                @media screen and (max-width: 1280px)
+        /*  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\ Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280 ///////////////////////////// */
+        
+        /* Corps du texte*/
+    { 
+            body
+                {
+                    background-image: url(theme/btfw40k.jpg);
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                    font-family: 'cheddargothic-stencil';
+                    color: green;
+                }
+    
+        /*Début du menu de navigation*/
+    
+            #bloc_page
+                {
+                    width: auto;
+                    max-width: 1200px;
+                    height: auto;
+                    margin: 0px 20px 35px 40px;
+                    position: relative;
+                    right: 250px;
+    
+                }
+            header
+                {
+                    display: flex;
+                    flex-direction:column;
+                    width: 350px;
+                    height: 200px;
+    
+                    background-image: url(theme/strategium.jpg);
+                    background-size: 1192px 670px ;
+                    background-position-y: top;
+                    background-repeat: no-repeat;
+                
+    
+                    border: 2px solid grey;
+                    border-radius: 30px 30px 30px 30px;
+                }
+    
+            nav
+                {
+                    width: 330px;
+                    min-width: 250px;
+                }
+            nav ul
+                {
+                    width: 310px;
+                    min-width: 250px;
+                    height: 40px;
+                    border: 2px solid grey;
+                    background-image: url(theme/strategium3.jpg);
+                    background-position: top;
+                    display:flex;
+                    justify-content:space-evenly;
+                    border-radius: 20px;
+                    list-style-type: none;
+                    padding: 8px 0px 0px 0px;
+                    margin: 0px;
+                }
+                #logo img
+                {
+                    display: none
+                }
+            
+            header h2
+                {
+                    display: block;
+                    text-decoration: underline;
+                    color: #551A8B;
+                    position: relative;
+                    right: 100px;
+                }
+        /*Fin du menu de navigation*/
+    
+        /*Page Accueil*/
+            
+            #article1
+                {
+                    border: 2px solid green;
+                    border-radius: 35px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:space-between;
+                    text-align: end;
+    
+                    padding: 0px 5px 0px 0px;
+                    font-size: small;
+                    background-image: url(theme/fond.jpg);
+                    background-position: bottom;
+                    width: 500px;
+                    height: 250px;
+                    padding-bottom: 150px;
+                }
+            #article1 img
+                {
+                   border-radius: 80px 40px;
+                   justify-self: baseline;
+                   width: 250px;
+                }
+            #article2
+                {
+                    border: 2px solid green;
+                    border-radius: 35px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:space-between;
+                    text-align: end;
+    
+                    padding: 0px 5px 0px 0px;
+                    font-size: small;
+                    background-image: url(theme/fond.jpg);
+                    background-position: bottom;
+                    width: 500px;
+                    height: 250px;
+                    padding-bottom: 150px;
+                }
+            #article2 img
+                {
+                    border-radius: 80px 40px;
+                    justify-self: baseline;
+                    width: 250px;
+                }
+            #article3
+                {
+                    border: 2px solid green;
+                    border-radius: 35px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:space-between;
+                    text-align: end;
+    
+                    padding: 0px 5px 0px 0px;
+                    font-size: small;
+                    background-image: url(theme/fond.jpg);
+                    background-position: bottom;
+                    width: 500px;
+                    height: 250px;
+                    padding-bottom: 150px;
+                }
+            #article3 img
+                {
+                    border-radius: 80px 40px;
+                    justify-self: baseline;
+                    width: 250px;
+                }
+            #article4
+                {
+                    border: 2px solid green;
+                    border-radius: 35px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:space-between;
+                    text-align: end;
+    
+                    padding: 0px 5px 0px 0px;
+                    font-size: small;
+                    background-image: url(theme/fond.jpg);
+                    background-position: bottom;
+                    width: 500px;
+                    height: 250px;
+                    padding-bottom: 150px;
+                }
+            #article4 img
+                {
+                   border-radius: 80px 40px;
+                   justify-self: baseline;
+                   width: 250px;
+                }
+        /*Page Accueil*/
+    
+        /*Page factions*/
+            #space_marines
+            {
+                border: 2px solid green;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                text-align: start;
+    
+                padding: 0px 5px 0px 0px;
+                font-size: small;
+                background-image: url(theme/fond.jpg);
+                background-position: bottom;
+                width: 550px;
+                height: auto;
+                overflow: auto;
+    
+            }
+            #space_marines  img
+            {
+               border-radius: 80px 40px;
+               justify-self: baseline;
+               width: 250px;
+               height: 200px;
+            }
+            #garde_imp
+            {
+                border: 2px solid green;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                text-align: start;
+    
+                padding: 0px 5px 0px 0px;
+                font-size: small;
+                background-image: url(theme/fond.jpg);
+                background-position: bottom;
+                width: 550px;
+                height: auto;
+                overflow: auto;
+            }
+            #garde_imp  img
+            {
+                border-radius: 80px 40px;
+                justify-self: baseline;
+                width: 250px;
+                height: 200px;
+            }
+            #chaos
+            {
+                border: 2px solid green;
+                border-radius: 35px;
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                text-align: start;
+    
+                padding: 0px 5px 0px 0px;
+                font-size: small;
+                background-image: url(theme/fond.jpg);
+                background-position: bottom;
+                width: 550px;
+                height: auto;
+                overflow: auto; 
+            }
+    
+    
+            #chaos  img
+            {
+                border-radius: 80px 40px;
+                justify-self: baseline;
+                width: 250px;
+                height: 200px;
+            }
+    
+        /*Fin de Page factions*/
+        
+        /*Pied de page*/
+    
+            footer 
+                {
+                    width: 450px;
+                    height: 60px;
+                }
+            footer ul
+                {
+                    width: 200px;
+                    height: 120px;
+                    border: 2px solid grey;
+                    background-image: url(theme/strategium3.jpg);
+                    background-position: center;
+                    display:flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border-radius: 20px;
+                    list-style-type: none;
+                    padding: 8px 0px 0px 0px;
+                    margin: 0px;
+                }
+    
+            footer ul li a
+                {
+                    display:block;
+                    float:left;
+                    justify-content: space-evenly;
+                    
+                    width: 150px;
+                    height: 40px;
+                    text-align: center;
+                    background-image: url(theme/strategium3.jpg);
+                    background-position: top;
+                    color: green;
+                    border-radius: 20px;
+                    padding: 5px;
+                    border: 2px solid grey;
+                    font-size: x-small;
+    
+                }
+    
+        /*Fin du Pied de page*/
+    }
+    
